@@ -1,0 +1,7 @@
+show=drun
+allow_images=true
+image_size=24
+term=kitty
+columns=2
+insensitive=true
+print_command=true
