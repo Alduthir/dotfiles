@@ -1,0 +1,74 @@
+@import "../shared/colors.css";
+* {
+	border: none;
+	color : @green;
+	font-family: "Lekton Nerd Font";
+	font-size: 12px;
+}
+
+window#waybar {
+	background: rgba(0,0,0,0);
+}
+
+.modules-right {
+	background: @bg_dim;
+	margin: 2px 0 0 0;
+	padding: 0 5px;
+	border-radius: 10px 0 0 10px;
+}
+
+.modules-center {
+	background: @bg_dim;
+	margin: 2px 0 0 0;
+	padding: 0 5px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.modules-left {
+	background: @bg_dim;
+	margin: 2px 0 0 0;
+	padding: 0 5px;
+	border-radius: 0 10px 10px 0;
+}
+
+#temperature,
+#cpu,
+#memory,
+#network,
+#workspaces,
+#battery,
+#pulseaudio,
+#clock,
+#tray,
+#idle_inhibitor{
+	padding: 0 6px;
+}
+
+#temperature.critical,
+#pulseaudio.muted {
+	color: @red;
+}
+
+#battery.warning:not(.charging){
+	color: @orange;
+}
+
+#battery.critical:not(.charging) {
+	color: @red;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes blink{
+	to {
+		color: @fg
+	}
+}
+
+#workspaces button:hover{
+	background-color: @fg;
+	color: @green;
+}
