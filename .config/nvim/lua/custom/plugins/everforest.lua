@@ -5,11 +5,11 @@ return {
 		config = function()
 			---@diagnostic disable-next-line:missing-fields
 			require("everforest").setup({
-				styles = {
-					comments = { italic = false },
-					ui_contrast = "high",
-					background = "hard",
-				},
+				disable_italic_comments = false,
+				transparent_background_level = 1,
+				ui_contrast = "high",
+				background = "hard",
+				spell_foreground = false,
 			})
 			vim.cmd.colorscheme("everforest")
 		end,
