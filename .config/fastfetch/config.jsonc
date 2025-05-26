@@ -31,4 +31,10 @@
     "break",
     "colors"
   ],
+  "logo": {
+  	"color" : {"1": "green", "2": "green"}
+  },
+  "display" : {
+	"color" : {"keys":"green","title":"green"}
+  }
 }

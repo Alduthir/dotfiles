@@ -8,8 +8,7 @@ return {
 				disable_italic_comments = false,
 				transparent_background_level = 1,
 				ui_contrast = "high",
-				background = "hard",
-				spell_foreground = false,
+				background = "soft",
 			})
 			vim.cmd.colorscheme("everforest")
 		end,
