@@ -3,10 +3,9 @@
     "position": "top",
     "height": 30,
     "spacing": 1,
-    "margin": 0,
-    "modules-left": ["hyprland/workspaces", "custom/updates"],
-    "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "cpu", "memory", "temperature", "battery", "tray", "custom/power"],
+    "modules-left": ["temperature", "cpu", "memory", "network", "tray"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["battery","pulseaudio", "mpris", "clock"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -18,7 +17,14 @@
             "3": "",
             "4": "󰭹",
             "5": "󰕧"
-        }
+        },
+	"persistent-workspaces" : {
+	    "1": [],
+	    "2": [],
+	    "3": [],
+	    "4": [],
+	    "5": []
+	}
     },
 
     "clock": {
