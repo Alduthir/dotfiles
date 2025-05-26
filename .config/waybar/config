@@ -5,19 +5,12 @@
     "spacing": 1,
     "modules-left": ["temperature", "cpu", "memory", "network", "tray"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["battery","pulseaudio", "mpris", "clock"],
+    "modules-right": ["idle_inhibitor","battery","pulseaudio", "clock"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "format": "{name}",
-        "format-icons": {
-            "1": "󰖟",
-            "2": "",
-            "3": "",
-            "4": "󰭹",
-            "5": "󰕧"
-        },
 	"persistent-workspaces" : {
 	    "1": [],
 	    "2": [],
@@ -91,8 +84,6 @@
         "format-ethernet": "󰈀 {ifname}",
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "󰖪 Disconnected",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "tooltip-format": "{ifname}: {ipaddr}",
         "on-click": "nm-applet"
     },
 
@@ -119,17 +110,11 @@
         "icon-size": 18,
         "spacing": 5
     },
-    "custom/power": {
-        "format" : "⏻",
-            "tooltip" : false,
-            "menu" : "on-click",
-            "menu-file" : "$HOME/.config/waybar/power_menu.xml",
-            "menu_actions" : {
-                "shutdown" : "shutdown",
-                "reboot" : "reboot",
-                "suspend" : "systemctl suspend",
-                "hibernate" : "systemctl hibernate"
-            }
-
+    "idle_inhibitor": {
+    	"format": "{icon}",
+	"format-icons" : {
+		"activated" : "",
+		"deactivated" : ""
+	}
     }
 }
