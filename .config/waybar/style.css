@@ -3,7 +3,7 @@
 	border: none;
 	color : @green;
 	font-family: "Lekton Nerd Font";
-	font-size: 12px;
+	font-size: 14px;
 }
 
 window#waybar {
@@ -41,7 +41,7 @@ window#waybar {
 #clock,
 #tray,
 #idle_inhibitor{
-	padding: 0 6px;
+	padding: 0 7px;
 }
 
 #temperature.critical,
@@ -68,7 +68,18 @@ window#waybar {
 	}
 }
 
+#clock{
+	color: @fg;
+}
+
 #workspaces button:hover{
-	background-color: @fg;
-	color: @green;
+	background: @green;
+	color: @bg_dim;
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+
+#workspaces button.active{
+	background: @bg_green;
+	color: @statusline2;
 }
