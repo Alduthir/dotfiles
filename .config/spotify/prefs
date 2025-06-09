@@ -1,0 +1,15 @@
+autologin.username="peter_g_askey"
+autologin.saved_credentials="{\"peter_g_askey\":[\"peter_g_askey\",\"DwlXlhIbgnSXj2tLfKXLoautemgzp23HKt3i5NkFWBUhbyEImPy+fDGbhyaputH2M6/cYt66J0XEKn4vRWQjzd/865lIHhtHWYK8KPk9Ok29lmyXmqrRhS8kWhBZB+bOw5nxGVvIjBaqoPPQckb32OQ/MAMD98kPa6S6Bn9bEXCiKxMS5Kob81Q7vAQHEX+Nt+yS4rp4mjWFeCuDQJ/YRaFv7RX520zkrmY3D+7K/zxVHHFRTO16VS831+plck3fQu0MpxX4S/qK+cc+hrIK1Q==\"]}"
+autologin.canonical_username="peter_g_askey"
+app.window.state.saved=true
+app.window.position.width=945
+app.rollback-to-sc=true
+autologin.blob="DwlXlhIbgnSXj2tLfKXLoautemgzp23HKt3i5NkFWBUhbyEImPy+fDGbhyaputH2M6/cYt66J0XEKn4vRWQjzd/865lIHhtHWYK8KPk9Ok29lmyXmqrRhS8kWhBZB+bOw5nxGVvIjBaqoPPQckb32OQ/MAMD98kPa6S6Bn9bEXCiKxMS5Kob81Q7vAQHEX+Nt+yS4rp4mjWFeCuDQJ/YRaFv7RX520zkrmY3D+7K/zxVHHFRTO16VS831+plck3fQu0MpxX4S/qK+cc+hrIK1Q=="
+es.send-on-startup=true
+core.clock_delta=0
+app.window.position.saved=true
+app.window.position.height=1008
+app.window.position.y=61
+storage.last-location="/home/aspe/.cache/spotify/Storage"
+app.window.position.x=10
+app.last-launched-version="1.2.63.394.g126b0d89"
