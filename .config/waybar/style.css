@@ -40,8 +40,9 @@ window#waybar {
 #pulseaudio,
 #clock,
 #tray,
-#idle_inhibitor{
-	padding: 0 7px;
+#idle_inhibitor,
+#custom-notification{
+	padding: 0 8px;
 }
 
 #temperature.critical,
