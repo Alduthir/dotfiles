@@ -2,14 +2,14 @@ autologin.blob="03WVayNEyVNVfwhmai9r+KlIsDa8uGpmREBgwMPgUrWKSBDwdJFf+CDM0KWQ8+kr
 autologin.canonical_username="peter_g_askey"
 autologin.saved_credentials="{\"peter_g_askey\":[\"peter_g_askey\",\"03WVayNEyVNVfwhmai9r+KlIsDa8uGpmREBgwMPgUrWKSBDwdJFf+CDM0KWQ8+krNo7Wo6SFCm1ikoyeCTSRc22X/kKlYM7sr7tSESlUHOYFMPdDx3yQQzf5vzRU8hDMxsmXPf6mEIReZJmLw65oPiXYsqfuaL9dLIaMv16tnS1erDdcNnf/vkPv2+daCTadcFP+br16Jazfz4cbFQWEcOG+tlcJlSlChGXxOHfJW3auK6tXVeV1Sxmohas2qZz0aSQ3W69D+BT/dN+9QQKjHw==\"]}"
 app.window.state.saved=true
-app.window.position.width=1270
+app.window.position.width=2546
 app.rollback-to-sc=true
 es.send-on-startup=true
-core.clock_delta=0
+core.clock_delta=-1
 autologin.username="peter_g_askey"
 app.window.position.saved=true
 app.window.position.height=1392
 app.window.position.y=41
 storage.last-location="/home/alduthir/.cache/spotify/Storage"
-app.window.position.x=1283
+app.window.position.x=7
 app.last-launched-version="1.2.63.394.g126b0d89"
